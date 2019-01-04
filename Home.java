@@ -149,7 +149,7 @@ public class Home extends AppCompatActivity {
         }
     }
     private void openImagesActivity() {
-        Intent intent = new Intent(this, imagesActivity.class);
+        Intent intent = new Intent(this, AlbumActivity.class);
         startActivity(intent);
     }
 
